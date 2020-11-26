@@ -1,0 +1,92 @@
+body {
+  max-width: 50%;
+  min-width: 230px;
+  background-image: url('../movies.jpg');
+  background-size: 100%;
+  font-family: 'Crimson Pro', sans-serif;
+  margin-left: 21px;
+}
+
+table#theaters {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 250px;
+  background-color: #8CE2FE;
+  cursor: pointer;
+}
+
+table#theaters td {
+  padding: 3px;
+  border-top: 1px solid black;
+}
+
+table#content {
+  border-collapse: collapse;
+  width: 649px;
+  background-color: #8CE2FE;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+th {
+  background-color: #1CC5FB;
+  cursor: auto;
+  text-align: center;
+  font-size: 20px;
+  padding: 12px;
+}
+
+td {
+  padding: 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+h2 {
+  text-align: center;
+  margin-top: -14px;
+  color: #8CE2FE;
+  font-size: 86px;
+  text-shadow: 0px -3px 0px #2E046C;
+  border-top: 6px double #04536C;
+  border-bottom: 6px double #04536C;
+  margin-right: 461px;
+  margin-left: 44px;
+  border-bottom-right-radius: 54px;
+  border-bottom-left-radius: 54px;
+  border-top-left-radius: 54px;
+  border-top-right-radius: 54px;
+  padding-bottom: 11px;
+}
+
+#full {
+  width: 1500px;
+  height: auto;
+  margin-left: 200px;
+  top: 40%;
+  right: 50%;
+}
+
+#theaters {
+  font-size: 120%;
+  margin-top: 104px;
+}
+
+#textField {
+  box-sizing: border-box;
+  margin-left: 368px;
+  margin-top: 103px;
+  position: absolute;
+  height: auto;
+  width: 649px;
+  font-size: larger;
+}
+
+#heading1 {
+  margin-top: 34px;
+  float: right;
+  width: 1160px;
+  margin-right: 20px;
+  height: 46px;
+  text-align: center;
+}
